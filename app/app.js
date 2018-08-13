@@ -15,6 +15,11 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
     controller: "homeController"
   });
 
+  $routeProvider.when('/vaccination', {
+    templateUrl: viewsBaseUrl + "vaccination/vaccination.html",
+    controller: "vaccinationController"
+  });
+
   $routeProvider.when('/principals', {
     templateUrl: viewsBaseUrl + "principals/principals.html",
     controller: "principalsController"
