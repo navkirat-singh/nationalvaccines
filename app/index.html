@@ -9,21 +9,19 @@
   <title>National Vaccines</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
   <link rel="stylesheet" href="app.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.min.css">
   <script src="third-party/jquery-slim/jquery-3.0.0.min.js"></script>
   <script src="third-party/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
   <nv-navigation></nv-navigation>
   <!--nv-slide-show></nv-slide-show-->
   <div ng-view></div>
 
-  <div>Developed and maintained by: National Pharamceuticals</div>
+  <div class="container nv-footer">Developed and maintained by: National Pharamceuticals</div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
@@ -33,7 +31,7 @@
   <script src="app.js"></script>
   <!-- Import Views Start -->
   <script src="views/home/homeController.js"></script>
-  <script src="views/vaccination/vaccination.html"></script>
+  <script src="views/vaccination/vaccinationController.js"></script>
   <script src="views/principals/principalsController.js"></script>
   <script src="views/accolades/accoladesController.js"></script>
   <script src="views/contactUs/contactUsController.js"></script>
@@ -44,6 +42,5 @@
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
   <script src="components//slideshow/slideshowDirective.js"></script>
-
 </body>
 </html>
