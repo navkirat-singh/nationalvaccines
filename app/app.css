@@ -1,5 +1,11 @@
 /* app css stylesheet */
 
+body {
+  color: #666;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
 .nv-navbar {
   background-color: #3fbbc0;
 }
@@ -13,8 +19,10 @@
   color:#212529;
 }
 
-.nv-navbar .company-name {
-  vertical-align: super;
+.nv-navbar .nv-logo {
+  color: #212529;
+  font-weight: 600;
+
 }
 
 .nv-footer {
@@ -28,15 +36,24 @@
 
 .slide-show {
   height: 300px;
+  overflow:hidden;
+  background: url(static/banners/banner1.jpg) no-repeat top center;
 }
 
 .slide-show-image {
   width: 100%;
-  height: auto;
 }
 
 .info-card {
   margin-top: 10px;
   text-align: center;
+}
+
+/* Home page styles */
+
+.home-banner {
+  background: url('static/banners/banner1.jpg') no-repeat top center;
+  height: 700px;
+  background-size: 100% auto;
 }
 
