@@ -57,3 +57,34 @@ body {
   background-size: 100% auto;
 }
 
+/* Vaccination page styles */
+.nv-jumbotron .vaccination-info-overview {
+  font-weight: 500;
+}
+
+.nv-jumbotron .vaccination-info-detail {
+  color: #000000;
+  font-weight: 400;
+}
+
+/* Principals page styles */
+
+.nv-card-container .card {
+  border: none;
+}
+
+/* Common Styles */
+
+.banner-image {
+  width: 100%;
+  max-width: 100%;
+}
+
+.nv-jumbotron {
+  margin-top: 10px;
+  border-radius: 10px;
+  background: url('static/bg1.jpg') no-repeat top center;
+}
+
+
+

@@ -22,7 +22,8 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 
   $routeProvider.when('/principals', {
     templateUrl: viewsBaseUrl + "principals/principals.html",
-    controller: "principalsController"
+    controller: "principalsController",
+    controllerAs: "vm"
   });
 
   $routeProvider.when('/accolades', {

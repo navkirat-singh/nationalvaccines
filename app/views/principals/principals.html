@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <div class="container">
+        <h1 style="text-align: center">Authorized distributor for:</h1>
+        <div class="card-columns">
+            <div class="card" ng-repeat="logo in vm.logos">
+                <img class="card-img-top" src="{{vm.logoRoot + logo.imgName}}">
+            </div>
+        </div>
+    </div>
+</div>
+
